@@ -1,0 +1,150 @@
+
+
+
+
+
+nav ul {
+
+    	margin-top: 0px;
+	    top:0;
+		padding-top:20px;
+    	padding-right: 34%;
+    	background-color: white;
+	    padding-left: 34%;
+	    position: fixed; 
+     	z-index: 100;
+     	/*position: top;*/
+     	padding-bottom: 20px; 
+}
+
+
+nav ul:hover {
+
+    	padding-right: 34%;
+    	padding-bottom: 20px;
+    	background-color: gray;
+	    padding-left: 34%;
+	    position: top; 
+      -webkit-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+
+}
+
+
+
+nav ul li { 
+	list-style: none;
+	display: inline-block;
+	text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+	vertical-align: bottom;
+	margin: 5px 15px 0 0;
+	font-size: 19px;
+    font-family: helvetica;
+}
+
+nav ul li .nhome:hover { 
+   background-color: gray;
+}
+
+nav ul li .nweb:hover { 
+   background-color: gray;
+}
+
+nav ul li .nvideo:hover { 
+   background-color: gray;
+}
+
+nav ul li .nmusic:hover { 
+   background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+div {
+	font-size: 40px;
+	color: black;
+	font-family: helvetica;
+	background-color:#FFFFFF;
+    height: 100px;
+	}
+
+
+div h1 {
+		padding-left: 35%;
+		margin-bottom: 0px;
+        margin-top: 0px;
+	   }
+
+section {
+	padding-left: 0%;
+	padding-right: 0%;
+   }
+  
+
+
+section img.web:hover { 
+    background-color:red;
+    
+    -webkit-transition: all 0.3s ease-in-out;
+	        transition: all 0.5s ease-in-out;
+	        transition: all .2s ease-in-out; 
+            transform: scale(1.05);
+            
+}
+
+
+
+section img.video:hover {
+
+    background-color:blue;
+    -webkit-transition: all 0.3s ease-in-out;
+	        transition: all 0.5s ease-in-out;
+	         transition: all .2s ease-in-out; 
+            transform: scale(1.05); 
+}
+
+section img.music:hover { 
+    background-color:green;
+    -webkit-transition: all 0.3s ease-in-out;
+	        transition: all 0.5s ease-in-out;
+	         transition: all .2s ease-in-out; 
+            transform: scale(1.05); 
+}
+
+
+section img.web2:hover { 
+    background-color: purple;
+    -webkit-transition: all 0.3s ease-in-out;
+	        transition: all 0.5s ease-in-out;
+	         transition: all .2s ease-in-out; 
+            transform: scale(1.05); 
+}
+
+
+
+section img.video2:hover {   
+    background-color: yellow;
+    -webkit-transition: all 0.3s ease-in-out;
+	        transition: all 0.5s ease-in-out;
+	        transition: all .2s ease-in-out; 
+            transform: scale(1.05); 
+}
+
+section img.music2:hover { 
+    background-color: orange;
+    -webkit-transition: all 0.3s ease-in-out;
+	        transition: all 0.5s ease-in-out;
+	        transition: all .2s ease-in-out; 
+            transform: scale(1.05); 
+}
+
+
+
